@@ -1,0 +1,5 @@
+Проблемы с пакетами InputSystem --- добавил com.unity.inputsystem и com.unity.ml-agents.extensions
+The type or namespace name 'Recorder' does not exist in the namespace 'UnityEditor' --- установил Recorder
+The type or namespace name 'Newtonsoft' could not be found --- тоже установил пакет через Package Manager (com.unity.nuget.newtonsoft-json)
+
+В туториале сказано переключить inference device на cpu, но значения такого нет, но через --torch-devide=cpu работает
